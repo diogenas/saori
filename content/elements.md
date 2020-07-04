@@ -1,5 +1,5 @@
 ---
-title: elements
+title: About us
 ---
 
 ## Table of contents
