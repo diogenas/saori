@@ -7,7 +7,6 @@ PygmentsStyle = "monokai"
 
 paginate  = 10
 rssLimit  = 10  # Maximum number of items in the RSS feed.
-copyright = "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License." # This message is only used by the RSS template.
 
 # googleAnalytics = ""
 # disqusShortname = ""
@@ -125,17 +124,6 @@ disableHugoGeneratorInject = false
   [[params.social]]
     name = "stackoverflow"
     url  = "https://www.stackoverflow.com/"
-
-[languages]
-  [languages.en]
-    subtitle  = "Hello Friend NG Theme"
-    weight    = 1
-    copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
-
-  [languages.fr]
-    subtitle  = "Hello Friend NG Theme"
-    weight    = 2
-    copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
 
 [menu]
   [[menu.main]]
