@@ -1,5 +1,6 @@
 ---
-title: Your Name
-description: A great human
+title: Saori
+description: Passion for Exellence
 background: "images/bg.jpg"
+logo: "images/logo.jpg"
 ---
