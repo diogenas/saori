@@ -1,8 +1,7 @@
 ################################### Default Configuration ############################
-baseurl = "https://www.example.com/"
+baseurl = "https://www.saori.eu/"
 languageCode = "en"
 title = "Vex"
-theme = "vex-hugo"
 
 #################################### Plugins ##########################################
 
