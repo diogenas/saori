@@ -43,7 +43,7 @@ weight = 2
 
 ########################### Default parameters ##########################
 [params]
-logo = ""
+logo = "LOZGO"
 home = "Home"
 # Meta data
 description = "This is meta description"
