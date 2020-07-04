@@ -2,4 +2,6 @@
 title: contacts
 ---
 
-Contact us
+# Contact us
+
+Here is how and when you can contact us.
