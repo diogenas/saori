@@ -1,5 +1,5 @@
 ---
 title: Saori
-description: Pasion for exelence
+description: passion for excellence
 background: "images/bg.jpg"
 ---
