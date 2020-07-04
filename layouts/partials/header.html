@@ -1,14 +1,19 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <title>{{ .Params.Title | default "Title" }}</title>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-    <link rel="stylesheet" href="{{ "assets/css/main.css" | absURL }}"/>
-    <noscript><link rel="stylesheet" href="{{ "assets/css/noscript.css" | absURL }}"/></noscript>
-    <style>
-        :root{--site-background : url("{{ .Params.background | default "images/bg.jpg" | absURL }}")};
-    </style> 
-    <!-- Include the script that enables Netlify Identity on this page. -->
-    <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
-</head>
+<header class="header">
+    <span class="header__inner">
+        {{ partial "logo.html" . }}
+
+        <span class="header__right">
+            {{ if len .Site.Menus }}
+                {{ partial "menu.html" . }}
+                <span class="menu-trigger">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                        <path d="M0 0h24v24H0z" fill="none"/>
+                        <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/>
+                    </svg>
+                </span>
+            {{ end }}
+
+            <span class="theme-toggle unselectable">{{ partial "theme-icon.html" . }}</span>
+        </span>
+    </span>
+</header>
