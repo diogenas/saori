@@ -58,7 +58,7 @@ features:
 
 ############################# promo ############################
 promo:
-  enable : true
+  enable : false
   image : "images/watch.png"
   title : "Designed by professional , the benefit for creative gigs"
   content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia vel labore, deleniti minima
@@ -97,7 +97,7 @@ aboutProduct:
 
 #################################### Gallery ########################
 gallery:
-  enable : true
+  enable : false
   title : "Checkout some amazing Shorts"
   # Set the image directory to use as base
   directory : "images/showcase"
@@ -108,7 +108,7 @@ gallery:
 
 ################################## call to action ###################
 cta:
-  enable : true
+  enable : false
   bgImage : "images/call-to-action.jpg"
   title : "Get Product Updates"
   content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod"
@@ -117,7 +117,7 @@ cta:
 
 ############################## Testimonial ##########################
 testimonial:
-  enable : true
+  enable : false
   title : "Watch Review"
   testimonialItem:
     # testimonial item loop
