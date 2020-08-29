@@ -2,10 +2,6 @@
 title: about us
 ---
 
-## Saori
-
-We are...
-
 ## Contact us
 
-You can reach us [here](mailto:office@saori.eu)
+Write us an [email](mailto:office@saori.eu).
